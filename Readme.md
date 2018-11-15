@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/ReportInCode/Form1.cs) (VB: [Form1.vb](./VB/ReportInCode/Form1.vb))
+<!-- default file list end -->
 # How to construct an XtraSchedulerReport at runtime
 
 
