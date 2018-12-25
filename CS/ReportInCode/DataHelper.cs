@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
 using DevExpress.XtraScheduler;
 using System.IO;
 
@@ -9,7 +6,7 @@ namespace ReportInCode {
         public const string aptDataResourceName = "ReportInCode.Data.appointments.xml";
         public const string resDataResourceName = "ReportInCode.Data.resources.xml";
         
-        public static void FillStorageData(SchedulerStorage storage) {
+        public static void FillStorageData(ISchedulerStorage storage) {
             FillStorageCollection(storage.Resources.Items, resDataResourceName);
             FillStorageCollection(storage.Appointments.Items, aptDataResourceName);
         }

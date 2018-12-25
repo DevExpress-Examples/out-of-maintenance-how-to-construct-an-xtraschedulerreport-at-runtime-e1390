@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace ReportInCode {
     public partial class Form1 : Form {
-        SchedulerStorage storage = new SchedulerStorage();
+        SchedulerDataStorage storage = new SchedulerDataStorage();
         public Form1() {
             InitializeComponent();
             DataHelper.FillStorageData(storage);   
@@ -66,7 +66,5 @@ namespace ReportInCode {
             tool.ShowRibbonDesignerDialog();
             #endregion #createreport
         }
-
-    
     }
 }

@@ -42,7 +42,8 @@ namespace ReportInCode {
             this.ClientSize = new System.Drawing.Size(292, 55);
             this.Controls.Add(this.btnReportCreate);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "How to construct an XtraSchedulerReport at runtime";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
         }
